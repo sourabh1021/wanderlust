@@ -1,0 +1,23 @@
+packages use in this project:
+
+express → A fast, minimalist web framework for Node.js used to build server-side applications and APIs.
+
+ejs → A templating engine that lets you generate dynamic HTML pages using embedded JavaScript.
+
+method-override → Allows the use of HTTP verbs like PUT and DELETE in places where the client doesn’t support them (e.g., HTML forms).
+
+ejs-mate → An extension for EJS that adds layout, partials, and template inheritance features for cleaner views.
+
+joi → A powerful data validation library used to define and validate object schemas (like form inputs or API data).
+
+cookie-parser
+
+npm i express-session
+npm i connect-flash
+npm i passport
+npm i passport-local
+npm i passport-local-mongoose
+
+npm i multer // for usderstanding uploading image formate
+
+npm i cloudinary

@@ -1,0 +1,116 @@
+body{
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container{
+    flex: 1; /*for 100% height*/
+}
+.navbar{
+    height: 5rem;
+    background-color: whitesmoke;
+}
+
+.fa-compass{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* footer */
+
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-social{
+    font-size: 1.3rem;
+}
+.f-info-social i{
+    margin-right: 1rem;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info{
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    width: 100%;
+    border-radius: 1rem !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+.listing-link p:hover{
+    text-decoration: underline;
+}
+
+.card-img-overlay{ /* this method is use to write on image */
+    opacity: 0;
+    transition: 0.2s ease-in-out;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+/* new page */
+.add-btn{
+    background-color: #fe424d !important;
+    border: #fe424d !important;
+}
+
+/* edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: #fe424d !important;
+}
+/* show page */
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+    /* margin-left: 1rem !important; */
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.back{
+    background-color: rgb(129, 206, 12) !important;
+    border: rgb(129, 206, 12) !important;
+}
